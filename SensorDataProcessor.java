@@ -1,4 +1,3 @@
-//I i hate this
 
 
 public class SensorDataProcessor {
