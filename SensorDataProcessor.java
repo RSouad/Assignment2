@@ -1,11 +1,12 @@
-
+import java.io.BufferedWriter;
+import java.io.FileWriter;
 
 public class SensorDataProcessor {
 // Senson data and limits.
 public double[][][] data;
 public double[][] limit;
 // constructor
-public DataProcessor(double[][][] data, double[][] limit) {
+public SensorDataProcessor(double[][][] data, double[][] limit) {
 this.data = data;
 this.limit = limit;
 }
@@ -50,10 +51,13 @@ continue;
 }
 }
 for (i = 0; i < data2.length; i++) {
-for (j = 0; j < data2[0].length; j++) {
-out.write(data2[i][j] + "\t");
+    for (j = 0; j < data2[0].length; j++) {
+        for (k = 0; k < data2[0][0].length; k++) {
+            out.write(data2[i][j][k] + "\t");
+        }
+    }
 }
-}
+
 out.close();
 } catch (Exception e) {
 System.out.println("Error= " + e);
