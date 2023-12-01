@@ -27,7 +27,7 @@ The data2 array was attempted to be written to a file in the original code, but 
 //////////////////////////////
 Layali Khayat 2110211
 
-infficient bufferedwriter usage:
+inefficient bufferedWriter usage:
 The code currently writes only one dimension of the three-dimensional array to the file. It might be better to format the output in a more organized manner.
 
 
