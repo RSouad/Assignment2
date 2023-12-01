@@ -28,6 +28,9 @@ The data2 array was attempted to be written to a file in the original code, but 
 Layali Khayat 2110211
 
 
+wwwwwwwwwwwwwww
+
+
 
 
 
